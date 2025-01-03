@@ -42,7 +42,7 @@ export default function page() {
           className="absolute top-[18.2%] block md:hidden left-[33.5%] !w-[30.5%] !h-[7.8%]  "
         />
 
-        <div className=" absolute top-[36%] w-[90%] md:w-[97%] flex justify-center  mx-auto !h-[55%] overflow-auto ">
+        <div className=" absolute top-[36%] w-[90%] md:w-[97%] flex justify-center  mx-auto !h-[45%] overflow-auto ">
           <div className=" w-[60%] md:w-[60%] m-auto mx-auto text-[#FFFFFFE5] font-bold">
             <div className="flex justify-center gap-0 card">
               <img

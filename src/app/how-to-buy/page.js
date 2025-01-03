@@ -60,7 +60,7 @@ export default function page() {
           className="absolute top-[17.8%] block md:hidden left-[30.7%] !w-[38.2%] !h-[9.5%] "
         />
 
-        <div className=" absolute top-[37%] w-[90%] md:w-[97%]   !flex !justify-center  items-center  mx-auto !h-[50%] overflow-auto ">
+        <div className=" absolute top-[37%] w-[90%] md:w-[97%]   !flex !justify-center  items-center  mx-auto !h-[45%] overflow-auto ">
           <div className=" w-[60%] md:w-[65%]    mx-auto  ">
             {/* <div className=" flex flex-col gap-6">
               {steps.map((step, index) => (

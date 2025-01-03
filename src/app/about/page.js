@@ -34,7 +34,7 @@ export default function page() {
           className="absolute top-[17.8%] block md:hidden left-[30.7%] !w-[38.2%] !h-[9.5%] "
         />
 
-        <div className=" absolute top-[38%]  w-[90%] sm:w-[97%]  mx-auto !h-[50%] overflow-auto ">
+        <div className=" absolute top-[38%]  w-[90%] sm:w-[97%]  mx-auto !h-[45%] overflow-auto ">
           <div className=" w-[60%] md:w-[50%] !font-semibold tracking-tighter !font-titillium text-[16px] md:text-[24px] mx-auto text-[#FFFFFFE5] animate-fade-in ">
             <p>
               For twelve long years, Jin, whose name means "gold" in Chinese,

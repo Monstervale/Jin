@@ -63,7 +63,7 @@ export default function page() {
           className="absolute top-[17.8%] block md:hidden left-[30.7%] !w-[38.2%] !h-[9.5%]  "
         />
 
-        <div className=" absolute top-[37%] w-[90%] md:w-[95%]  mx-auto !h-[50%] overflow-auto ">
+        <div className=" absolute top-[37%] w-[90%] md:w-[95%]  mx-auto !h-[45%] overflow-auto ">
           <div className=" w-[60%] md:w-[60%] !mt-4  mx-auto text-[#FFFFFFE5] font-bold">
             <div className="space-y-2 md:space-y-4">
               {faqData.map((faq, index) => (
