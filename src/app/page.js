@@ -891,9 +891,9 @@ export function HoverImage({}) {
         className="!font-black left  md:left-[45.5] !font-titillium text-[12px] md:text-[16px] animate-slide-in "
       >
         <div className=" relative">
-          <span className=" ml-[17px]"> $JIN PRESALE</span>
+          <span className=" ml-[19px]"> $JIN PRESALE</span>
           <br />
-          <span className=" !ml-2"> USDT RAISED: $0</span>
+          <span className=" !-ml-3"> USDT RAISED: $200,000</span>
           <br></br>TIME LEFT: 30 DAYS
         </div>
       </div>
