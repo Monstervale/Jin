@@ -25,21 +25,21 @@ export default function page() {
 
         <img
           src="/presale_title.png"
-          className="absolute hidden md:block top-[15.8%] left-[28.5%] !w-[42.5%]  !h-[11%] "
+          className="absolute hidden md:block top-[17.8%] left-[30.8%] !w-[38%]  !h-[9.5%]"
         />
         <img
           src="/presale_yellow.png"
-          className="absolute md:block hidden top-[15.8%] left-[32.5%] !w-[34%] !h-[11%]  "
+          className="absolute hidden md:block top-[17.8%] left-[32.5%] !w-[34%]  !h-[9.5%] "
         />
 
         <img
           src="/presale_mobile_title.png"
-          className="absolute top-[15.8%] block md:hidden left-[28.5%] !w-[42.5%] !h-[10.8%]  "
+          className="absolute top-[17.8%] block md:hidden left-[30.8%] !w-[38%] !h-[9.5%]"
         />
 
         <img
           src="/presale_mobile_title_text.png"
-          className="absolute top-[16.2%] block md:hidden left-[31.5%] !w-[36.5%] !h-[9.8%]  "
+          className="absolute top-[18.2%] block md:hidden left-[33.5%] !w-[30.5%] !h-[7.8%]  "
         />
 
         <div className=" absolute top-[36%] w-[90%] md:w-[97%] flex justify-center  mx-auto !h-[55%] overflow-auto ">

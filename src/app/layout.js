@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Dragon",
+  title: "JIN",
   description: "Fire",
 };
 
@@ -21,6 +21,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
+        <link
+          rel="icon"
+          href="/icon?<generated>"
+          type="image/png"
+          sizes="<generated>"
+        />
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link

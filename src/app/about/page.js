@@ -26,12 +26,12 @@ export default function page() {
 
         <img
           src="/about_title.png"
-          className="absolute hidden md:block top-[15.8%] left-[28.5%] !w-[42.5%]  !h-[11%]  "
+          className="absolute hidden md:block top-[17.8%] left-[30.7%] !w-[38.2%]  !h-[9.5%]  "
         />
 
         <img
           src="/about_mobile_title.png"
-          className="absolute top-[15.8%] block md:hidden left-[28.5%] !w-[42.5%] !h-[10.8%]  "
+          className="absolute top-[17.8%] block md:hidden left-[30.7%] !w-[38.2%] !h-[9.5%] "
         />
 
         <div className=" absolute top-[38%]  w-[90%] sm:w-[97%]  mx-auto !h-[50%] overflow-auto ">
