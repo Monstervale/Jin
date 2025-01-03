@@ -1,0 +1,284 @@
+.outer-container {
+  width: 100vw; /* Ensures the container width matches the viewport width */
+
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.inner-container {
+  background-image: url("/assets/Removed.jpg");
+  background-size: 100% 100%; /* Stretches the image to fit */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  width: 100vw; /* Content wider than the viewport to allow scrolling */
+  height: 100vh; /* Matches the height of the container */
+  /* overflow: hidden; */
+}
+
+.inner-container-sub {
+  background-image: url("/illustration.png");
+  background-size: 100% 100%; /* Stretches the image to fit */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  width: 100vw; /* Content wider than the viewport to allow scrolling */
+  height: 100vh; /* Matches the height of the container */
+  /* overflow: hidden; */
+}
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 1); /* Dark background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it's above all other content */
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgba(255, 255, 255, 0.3);
+  border-top: 5px solid white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.atagdex {
+  position: absolute;
+  bottom: 0%;
+  left: 22vw; /* Use viewport width for better scaling */
+  transform: translate(-50%, -50%);
+  z-index: 999; /* Place above the PNG */
+}
+
+.atag {
+  position: absolute;
+  bottom: 0%;
+  left: 25vw; /* Use viewport width for better scaling */
+  transform: translate(-50%, -50%);
+  z-index: 999; /* Place above the PNG */
+}
+
+.atag1 {
+  position: absolute;
+  bottom: 0%;
+  left: 28vw; /* Use viewport width for better scaling */
+  transform: translate(-50%, -50%);
+  z-index: 999; /* Place above the PNG */
+}
+.socialimg {
+  width: 8%;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+  z-index: 988; /* Place above the PNG */
+}
+.socialimg1 {
+  width: 8%;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+  z-index: 988; /* Place above the PNG */
+}
+.socialimgdex {
+  width: 18%;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+  z-index: 988; /* Place above the PNG */
+}
+@media screen and (max-width: 768px) {
+  .atag {
+    bottom: 7%;
+    left: 49vw; /* Adjust left based on viewport width */
+  }
+
+  .atag1 {
+    bottom: 6%;
+    left: 54vw; /* Adjust left based on viewport width */
+  }
+
+  .atagdex {
+    bottom: 7%;
+    left: 59vw; /* Adjust left based on viewport width */
+  }
+  .socialimg {
+    width: 17%;
+  }
+  .socialimg1 {
+    width: 13%;
+  }
+  .outer-container {
+    overflow-x: scroll;
+    width: 350vw;
+  }
+
+  .inner-container {
+    width: 350vw;
+  }
+
+  .hover-text {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 800;
+    font-family: sans-serif;
+    letter-spacing: -4px;
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+    z-index: 10;
+    pointer-events: none;
+    animation: slideUp 0.5s ease-out;
+  }
+  .bgFire {
+    margin-top: 1.5rem;
+  }
+  .bgFire2 {
+    margin-top: 1.5rem;
+  }
+  .snake {
+    margin-top: 3%;
+  }
+}
+
+.responsive-div {
+  width: 22%;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: url(/assets/fire.png), auto;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+  z-index: 2;
+  opacity: 1;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .responsive-div {
+    width: 22%; /* Adjust width to 35% for smaller screens */
+  }
+}
+.responsive-div-book {
+  width: 14%;
+  position: absolute;
+  top: 55.5%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .responsive-div-book {
+    width: 19%; /* Adjust width to 22% for smaller screens */
+  }
+}
+
+.responsive-book-stroke {
+  width: 11%; /* Default width for larger screens */
+  position: absolute;
+  top: 53%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in-out;
+  z-index: 1; /* Place behind the GIF */
+  opacity: 1;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .responsive-book-stroke {
+    width: 22%; /* Adjust width to 22% for smaller screens */
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .atagdex {
+    left: calc(20vw + 10px); /* Adjust for smaller screens */
+  }
+
+  .atag {
+    left: calc(23vw + 10px); /* Adjust for smaller screens */
+  }
+
+  .atag1 {
+    left: calc(26vw + 10px); /* Adjust for smaller screens */
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .atagdex {
+    left: calc(18vw + 10px); /* Further adjust */
+  }
+
+  .atag {
+    left: calc(21vw + 10px); /* Further adjust */
+  }
+
+  .atag1 {
+    left: calc(24vw + 10px); /* Further adjust */
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .atagdex {
+    left: calc(15vw + 10px); /* Further adjust for medium screens */
+  }
+
+  .atag {
+    left: calc(18vw + 10px); /* Further adjust for medium screens */
+  }
+
+  .atag1 {
+    left: calc(21vw + 10px); /* Further adjust for medium screens */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .atagdex {
+    left: calc(12vw + 10px); /* Adjust for mobile screens */
+  }
+
+  .atag {
+    left: calc(14vw + 10px); /* Adjust for mobile screens */
+  }
+
+  .atag1 {
+    left: calc(16vw + 10px); /* Adjust for mobile screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .atagdex {
+    left: calc(10vw + 10px); /* Further adjust for very small screens */
+  }
+
+  .atag {
+    left: calc(12vw + 10px); /* Further adjust for very small screens */
+  }
+
+  .atag1 {
+    left: calc(14vw + 10px); /* Further adjust for very small screens */
+  }
+}
