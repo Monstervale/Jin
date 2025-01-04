@@ -867,7 +867,7 @@ export function HoverImage({}) {
           zIndex: showGallery ? 5 : 0,
         }}
       />
-      <div
+{/* <div
         style={{
           position: "absolute",
           top: "63%",
@@ -885,7 +885,7 @@ export function HoverImage({}) {
           <span className=" !-ml-3"> USDT RAISED: $200,000</span>
           <br></br>TIME LEFT: 30 DAYS
         </div>
-      </div>
+      </div> */}
       {/* New Div 2 */}
       <div
         style={{
