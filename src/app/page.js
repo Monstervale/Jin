@@ -664,18 +664,18 @@ export function HoverImage({}) {
           left: "40%",
           zIndex: 9,
         }}
-        onClick={() => {
-          playSound();
-          router.push("/presale");
-        }}
-        onMouseOver={() => {
-          setHoverText("PRESALE");
-          setShowGallery(true);
-        }}
-        onMouseOut={() => {
-          setHoverText("");
-          setShowGallery(false);
-        }}
+        // onClick={() => {
+        //   playSound();
+        //   router.push("/presale");
+        // }}
+        // onMouseOver={() => {
+        //   setHoverText("PRESALE");
+        //   setShowGallery(true);
+        // }}
+        // onMouseOut={() => {
+        //   setHoverText("");
+        //   setShowGallery(false);
+        // }}
       ></div>
       <div
         style={{
@@ -953,17 +953,17 @@ export function HoverImage({}) {
         </div>
       )}
       {hoverText === "PRESALE" && (
-        <div className="hover-text">
-          {" "}
-          <img
-            src="/assets/t2.png"
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-            }}
-          />
-        </div>
+        // <div className="hover-text">
+        //   {" "}
+        //   <img
+        //     src="/assets/t2.png"
+        //     style={{
+        //       width: "100%",
+        //       height: "100%",
+        //       objectFit: "cover",
+        //     }}
+        //   />
+        // </div>
       )}
       {hoverText === "FAQ's" && (
         <div className="hover-text">
