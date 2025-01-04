@@ -482,7 +482,7 @@ export function HoverImage({}) {
       >
         <BlinkingPoint />
       </div>
-      <div
+{/* <div
         style={{
           position: "absolute",
           top: "73%",
@@ -496,7 +496,7 @@ export function HoverImage({}) {
         }}
       >
         <BlinkingPoint color="white" />
-      </div>
+      </div>*/}
       {/* BlackSnake */}
       <div
         style={{
