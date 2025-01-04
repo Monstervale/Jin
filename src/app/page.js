@@ -664,18 +664,18 @@ export function HoverImage({}) {
           left: "40%",
           zIndex: 9,
         }}
-        // onClick={() => {
-        //   playSound();
-        //   router.push("/presale");
-        // }}
-        // onMouseOver={() => {
-        //   setHoverText("PRESALE");
-        //   setShowGallery(true);
-        // }}
-        // onMouseOut={() => {
-        //   setHoverText("");
-        //   setShowGallery(false);
-        // }}
+        {/*  onClick={() => {
+          playSound();
+          router.push("/presale");
+        }}
+        onMouseOver={() => {
+          setHoverText("PRESALE");
+          setShowGallery(true);
+        }}
+        onMouseOut={() => {
+          setHoverText("");
+          setShowGallery(false);
+        }} */}
       ></div>
       <div
         style={{
