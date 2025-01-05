@@ -26,6 +26,7 @@ export function HoverImage({}) {
   const [audio, setAudio] = useState(null);
   const router = useRouter();
 
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -122,8 +123,18 @@ export function HoverImage({}) {
 
   // Simulate loading delay
   useEffect(() => {
-    const timer = setTimeout(() => setIsLoading(false), 3000);
-    return () => clearTimeout(timer);
+    const hasNavigated = sessionStorage.getItem("hoverImagePageNavigated");
+
+    if (hasNavigated) {
+      setIsLoading(false); 
+    } else {
+      const timer = setTimeout(() => {
+        setIsLoading(false);
+        sessionStorage.setItem("hoverImagePageNavigated", "true"); 
+      }, 3000);
+
+      return () => clearTimeout(timer);
+    }
   }, []);
 
   // useEffect(() => {
