@@ -53,7 +53,7 @@ const SliderMenu = ({ isOpen, onClose, playSound }) => {
         {[
           { label: "HOME", href: "/" },
           { label: "ABOUT", href: "/about" },
-          { label: "PRESALE", href: "/presale" },
+          // { label: "PRESALE", href: "/presale" },
           { label: "HOW TO BUY", href: "/how-to-buy" },
           { label: "TOKENOMICS", href: "/tokenomics" },
           { label: "GAMES", href: "/games" },

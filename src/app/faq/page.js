@@ -12,14 +12,14 @@ const faqData = [
     question: "What Blockchain is $JIN on?",
     answer: "$JIN is built on the Ethereum blockchain.",
   },
-  {
-    question: "Is there a Presale?",
-    answer: "Detailed instructions are available in the Presale section.",
-  },
-  {
-    question: "How do I buy the Presale?",
-    answer: "Detailed instructions are available in the How to Buy section.",
-  },
+  // {
+  //   question: "Is there a Presale?",
+  //   answer: "Detailed instructions are available in the Presale section.",
+  // },
+  // {
+  //   question: "How do I buy the Presale?",
+  //   answer: "Detailed instructions are available in the How to Buy section.",
+  // },
   {
     question: "What makes $JIN unique?",
     answer:

@@ -493,7 +493,7 @@ export function HoverImage({}) {
       >
         <BlinkingPoint />
       </div>
-      <div
+{/* <div
         style={{
           position: "absolute",
           top: "73%",
@@ -507,7 +507,7 @@ export function HoverImage({}) {
         }}
       >
         <BlinkingPoint color="white" />
-      </div>
+      </div>*/}
       {/* BlackSnake */}
       <div
         style={{
@@ -675,18 +675,7 @@ export function HoverImage({}) {
           left: "40%",
           zIndex: 9,
         }}
-        onClick={() => {
-          playSound();
-          router.push("/presale");
-        }}
-        onMouseOver={() => {
-          setHoverText("PRESALE");
-          setShowGallery(true);
-        }}
-        onMouseOut={() => {
-          setHoverText("");
-          setShowGallery(false);
-        }}
+    
       ></div>
       <div
         style={{
@@ -889,7 +878,7 @@ export function HoverImage({}) {
           zIndex: showGallery ? 5 : 0,
         }}
       />
-      <div
+{/* <div
         style={{
           position: "absolute",
           top: "63%",
@@ -907,7 +896,7 @@ export function HoverImage({}) {
           <span className=" !-ml-3"> USDT RAISED: $200,000</span>
           <br></br>TIME LEFT: 30 DAYS
         </div>
-      </div>
+      </div> */}
       {/* New Div 2 */}
       <div
         style={{
@@ -955,19 +944,6 @@ export function HoverImage({}) {
           {" "}
           <img
             src="/assets/t1.png"
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-            }}
-          />
-        </div>
-      )}
-      {hoverText === "PRESALE" && (
-        <div className="hover-text">
-          {" "}
-          <img
-            src="/assets/t2.png"
             style={{
               width: "100%",
               height: "100%",
