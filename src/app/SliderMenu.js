@@ -107,7 +107,7 @@ const SliderMenu = ({ isOpen, onClose, playSound }) => {
         }}
       >
         {[
-          { href: "https://twitter.com", src: "/twitter.webp" },
+          { href: "https://x.com/jinsolvip", src: "/twitter.webp" },
           { href: "https://telegram.com", src: "/telegram.webp" },
         ].map((icon, index) => (
           <a

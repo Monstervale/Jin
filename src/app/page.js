@@ -316,7 +316,7 @@ export function HoverImage({}) {
           zIndex: 10000000,
         }}
       >
-        <a className="" href="https://twitter.com" target="_blank">
+        <a className="" href="https://x.com/jinsolvip" target="_blank">
           <img
             style={{ width: "40px", height: "40px" }}
             className=""
