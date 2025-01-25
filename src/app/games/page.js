@@ -7,32 +7,32 @@ export default function page() {
   // Define an array of objects for games
   const games = [
     {
-      src: "/game_1.png",
+      src: "/game_1_b.webp",
       title: "Snake",
       status: "playNow",
     },
     {
-      src: "/game_2.png",
+      src: "/game_2_b.webp",
       title: "Slither Surfer",
       status: "comingSoon",
     },
     {
-      src: "/game_3.png",
+      src: "/game_3_b.webp",
       title: "Snakes and Ladders",
       status: "comingSoon",
     },
     {
-      src: "/game_4.png",
+      src: "/game_4_b.webp",
       title: "Jin's Riddle Challenge",
       status: "comingSoon",
     },
     {
-      src: "/game_5.png",
+      src: "/game_5_b.webp",
       title: "Jin's Puzzle Temple",
       status: "comingSoon",
     },
     {
-      src: "/game_6.png",
+      src: "/game_6_b.webp",
       title: "Jin's Battle Arena",
       status: "comingSoon",
     },
@@ -42,7 +42,7 @@ export default function page() {
     <div class="bg-black relative  w-full h-screen min-h-screen overflow-auto">
       <div className=" relative min-h-full h-full p-5 rounded-lg text-center  w-full md:w-[80%] lg:w-[70%] mx-auto z-40">
         <img
-          src="/back_icon.png"
+          src="/back_icon.webp"
           alt="Close"
           style={{
             zIndex: 999999999,
@@ -53,17 +53,17 @@ export default function page() {
           }}
         />
         <img
-          src="/how_to_buy_bg.png"
+          src="/how_to_buy_bg.webp"
           className=" absolute inset-0 h-full w-full  "
         />
 
         <img
-          src="/games_title.png"
+          src="/games_title.webp"
           className="absolute hidden md:block top-[17.8%] left-[30.7%] !w-[38.2%]  !h-[9.5%]"
         />
 
         <img
-          src="/game_mobile_title.png"
+          src="/game_mobile_title.webp"
           className="absolute top-[17.8%] block md:hidden left-[30.7%] !w-[38.2%] !h-[9.5%] "
         />
 
@@ -102,7 +102,7 @@ export default function page() {
                       </button>
                     )}
                     <div className="absolute -right-[10px] -top-[10px]">
-                      <img src="/star.png" className="w-[30px] h-[30px]" />
+                      <img src="/star.webp" className="w-[30px] h-[30px]" />
                     </div>
                   </div>
                 );

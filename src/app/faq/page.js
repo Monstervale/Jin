@@ -38,7 +38,7 @@ export default function page() {
     <div class="bg-black relative  w-full h-screen min-h-screen overflow-auto">
       <div className=" relative min-h-full h-full p-5 rounded-lg text-center  w-full md:w-[80%] lg:w-[70%] mx-auto z-40">
         <img
-          src="/back_icon.png"
+          src="/back_icon.webp"
           alt="Close"
           style={{
             zIndex: 999999999,
@@ -49,17 +49,17 @@ export default function page() {
           }}
         />
         <img
-          src="/how_to_buy_bg.png"
+          src="/how_to_buy_bg.webp"
           className=" absolute inset-0 h-full w-full  "
         />
 
         <img
-          src="/faq_title.png"
+          src="/faq_title.webp"
           className="absolute hidden md:block top-[17.8%] left-[30.7%] !w-[38.2%]  !h-[9.5%]  "
         />
 
         <img
-          src="/faq_mobile_title.png"
+          src="/faq_mobile_title.webp"
           className="absolute top-[17.8%] block md:hidden left-[30.7%] !w-[38.2%] !h-[9.5%]  "
         />
 
@@ -83,7 +83,7 @@ export default function page() {
                           : "scale-100"
                       }`}
                     >
-                      <img src="/star.png" className="w-[30px] h-[30px]" />
+                      <img src="/star.webp" className="w-[30px] h-[30px]" />
                     </span>
                   </div>
                   <div

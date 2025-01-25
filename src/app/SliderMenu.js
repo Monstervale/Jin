@@ -42,7 +42,7 @@ const SliderMenu = ({ isOpen, onClose, playSound }) => {
         onClick={onClose}
       >
         <img
-          src="/close_icon.png"
+          src="/close_icon.webp"
           alt="Close"
           style={{ width: "48px", height: "48px" }}
         />
@@ -90,7 +90,7 @@ const SliderMenu = ({ isOpen, onClose, playSound }) => {
               e.target.style.transform = "scale(1)";
             }}
           >
-            <img src="/star.png" className="w-[48px] h-[48px] ml-4 mr-4" />
+            <img src="/star.webp" className="w-[48px] h-[48px] ml-4 mr-4" />
             {link.label}
           </Link>
         ))}
@@ -107,8 +107,8 @@ const SliderMenu = ({ isOpen, onClose, playSound }) => {
         }}
       >
         {[
-          { href: "https://twitter.com", src: "/twitter.png" },
-          { href: "https://telegram.com", src: "/telegram.png" },
+          { href: "https://twitter.com", src: "/twitter.webp" },
+          { href: "https://telegram.com", src: "/telegram.webp" },
         ].map((icon, index) => (
           <a
             key={index}

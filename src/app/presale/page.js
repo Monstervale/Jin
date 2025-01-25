@@ -8,7 +8,7 @@ export default function page() {
     <div class="bg-black relative  w-full h-screen min-h-screen overflow-auto">
       <div className=" relative min-h-full h-full p-5 rounded-lg text-center  w-full md:w-[80%] lg:w-[70%] mx-auto z-40">
         <img
-          src="/back_icon.png"
+          src="/back_icon.webp"
           alt="Close"
           style={{
             zIndex: 999999999,
@@ -19,26 +19,26 @@ export default function page() {
           }}
         />
         <img
-          src="/how_to_buy_bg.png"
+          src="/how_to_buy_bg.webp"
           className=" absolute inset-0 h-full w-full  "
         />
 
         <img
-          src="/presale_title.png"
+          src="/presale_title.webp"
           className="absolute hidden md:block top-[17.8%] left-[30.8%] !w-[38%]  !h-[9.5%]"
         />
         <img
-          src="/presale_yellow.png"
+          src="/presale_yellow.webp"
           className="absolute hidden md:block top-[17.8%] left-[32.5%] !w-[34%]  !h-[9.5%] "
         />
 
         <img
-          src="/presale_mobile_title.png"
+          src="/presale_mobile_title.webp"
           className="absolute top-[17.8%] block md:hidden left-[30.8%] !w-[38%] !h-[9.5%]"
         />
 
         <img
-          src="/presale_mobile_title_text.png"
+          src="/presale_mobile_title_text.webp"
           className="absolute top-[18.2%] block md:hidden left-[33.5%] !w-[30.5%] !h-[7.8%]  "
         />
 
@@ -46,7 +46,7 @@ export default function page() {
           <div className=" w-[60%] md:w-[60%] m-auto mx-auto text-[#FFFFFFE5] font-bold">
             <div className="flex justify-center gap-0 card">
               <img
-                src="/presale.png"
+                src="/presale.webp"
                 className="w-[180px] h-[180px] md:w-[580px] object-contain md:h-[240px] z-10 transition-transform duration-300 transform hover:scale-105"
               />
             </div>

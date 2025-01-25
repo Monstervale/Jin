@@ -65,7 +65,7 @@ const Modal = ({ isOpen, onClose, Heading, Text }) => {
     <div class="fixed inset-0 w-full h-full bg-black bg-opacity-80 backdrop-blur-sm z-50 flex justify-center items-center overflow-auto">
       <div class="bg-transparent p-5 rounded-lg text-center relative w-full md:w-4/5 h-full">
         <img
-          src="/back.png"
+          src="/back.webp"
           alt="Close"
           className="absolute top-6 right-4  md:top-6 md:right-6 w-5 h-5 md:w-10 md:h-10 cursor-pointer"
           onClick={onClose}
@@ -75,7 +75,7 @@ const Modal = ({ isOpen, onClose, Heading, Text }) => {
         </h1>
 
         <img
-          src="/chinese_border.png"
+          src="/chinese_border.webp"
           alt="Decorative Border"
           className="w-full h-10 md:h-20 object-cover mb-8"
         />
@@ -159,12 +159,12 @@ const Modal = ({ isOpen, onClose, Heading, Text }) => {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
               {[
-                "/game_1.jpg",
-                "/game_2.jpg",
-                "/game_3.jpg",
-                "/game_4.jpg",
-                "/game_5.jpg",
-                "/game_6.png",
+                "/game_1.webp",
+                "/game_2.webp",
+                "/game_3.webp",
+                "/game_4.webp",
+                "/game_5.webp",
+                "/game_6_b.webp",
               ].map((src, index) => (
                 <img
                   key={index}

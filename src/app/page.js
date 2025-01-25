@@ -212,7 +212,7 @@ export function HoverImage({}) {
         onClick={toggleSound}
       >
         <img
-          src={isPlaying ? "/volume.png" : "/volume-mute.png"}
+          src={isPlaying ? "/volume.webp" : "/volume-mute.webp"}
           alt={isPlaying ? "Sound On" : "Sound Off"}
           style={{
             width: "100%",
@@ -234,7 +234,7 @@ export function HoverImage({}) {
         onClick={toggleMenu}
       >
         <img
-          src={"/menu.png"}
+          src={"/menu.webp"}
           alt={"Menu"}
           style={{
             width: "100%",
@@ -254,7 +254,7 @@ export function HoverImage({}) {
         }`}
       >
         <img
-          src="/sidebar_head.png"
+          src="/sidebar_head.webp"
           className="hidden lg:block w-[230px] h-[340px] transform transition-transform duration-500 ease-in-out"
         />
       </div>
@@ -320,14 +320,14 @@ export function HoverImage({}) {
           <img
             style={{ width: "40px", height: "40px" }}
             className=""
-            src="/twitter.png"
+            src="/twitter.webp"
             alt="Twitter"
           ></img>
         </a>
         <a className="" href="https://telegram.com" target="_blank">
           <img
             style={{ width: "40px", height: "40px" }}
-            src="/telegram.png"
+            src="/telegram.webp"
             alt="Twitter"
           ></img>
         </a>

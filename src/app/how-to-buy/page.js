@@ -35,7 +35,7 @@ export default function page() {
     <div class="bg-black relative w-full h-screen min-h-screen overflow-auto">
       <div className=" relative min-h-full h-full p-5 rounded-lg text-center  w-full md:w-[80%] lg:w-[70%] mx-auto z-40">
         <img
-          src="/back_icon.png"
+          src="/back_icon.webp"
           alt="Close"
           style={{
             zIndex: 999999999,
@@ -46,17 +46,17 @@ export default function page() {
           }}
         />
         <img
-          src="/how_to_buy_bg.png"
+          src="/how_to_buy_bg.webp"
           className=" absolute inset-0 h-full w-full  "
         />
 
         <img
-          src="/how_to_buy_title.png"
+          src="/how_to_buy_title.webp"
           className="absolute hidden md:block top-[17.8%] left-[30.7%] !w-[38.2%]  !h-[9.5%]"
         />
 
         <img
-          src="/how_to_buy_mobile_title.png"
+          src="/how_to_buy_mobile_title.webp"
           className="absolute top-[17.8%] block md:hidden left-[30.7%] !w-[38.2%] !h-[9.5%] "
         />
 
@@ -71,7 +71,7 @@ export default function page() {
                   } items-center gap-6 p-6 border-2 border-[#E3B057] bg-transparent shadow-lg rounded-[20px]`}
                 >
                   <img
-                    src="/step_1.png"
+                    src="/step_1.webp"
                     className={`w-[140px] h-[140px] hidden md:block absolute ${
                       index % 2 !== 0
                         ? " top-[50%] left-0 -translate-y-[50%] -translate-x-[50%]"
@@ -80,7 +80,7 @@ export default function page() {
                   />
 
                   <img
-                    src="/star.png"
+                    src="/star.webp"
                     className={`w-[48px] h-[48px] absolute ${
                       index % 2 === 0 ? " -top-6 left-0" : " -top-6 right-0"
                     }`}
@@ -103,7 +103,7 @@ export default function page() {
             </div> */}
             <div className="flex justify-center gap-0 card">
               <img
-                src="/pile_in_coin.png"
+                src="/pile_in_coin.webp"
                 className="w-[180px] h-[180px] md:w-[580px] object-contain md:h-[280px] z-10 transition-transform duration-300 transform hover:scale-105 "
               />
             </div>

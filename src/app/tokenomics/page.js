@@ -8,7 +8,7 @@ export default function page() {
     <div class="bg-black relative  w-full h-screen min-h-screen overflow-auto">
       <div className=" relative min-h-full h-full p-5 rounded-lg text-center  w-full md:w-[80%] lg:w-[70%] mx-auto z-40">
         <img
-          src="/back_icon.png"
+          src="/back_icon.webp"
           alt="Close"
           style={{
             zIndex: 999999999,
@@ -19,17 +19,17 @@ export default function page() {
           }}
         />
         <img
-          src="/how_to_buy_bg.png"
+          src="/how_to_buy_bg.webp"
           className=" absolute inset-0 h-full w-full  "
         />
 
         <img
-          src="/tokenomic_title.png"
+          src="/tokenomic_title.webp"
           className="absolute hidden md:block top-[17.8%] left-[30.7%] !w-[38.2%]  !h-[9.5%] "
         />
 
         <img
-          src="/tokenomics_mobile_title.png"
+          src="/tokenomics_mobile_title.webp"
           className="absolute top-[17.8%] block md:hidden left-[30.7%] !w-[38.2%] !h-[9.5%] "
         />
 
@@ -37,7 +37,7 @@ export default function page() {
           <div className=" w-[60%] md:w-[60%]  mx-auto text-[#FFFFFFE5] font-bold">
             <div className="flex justify-center card">
               <img
-                src="/tokenomics_body.png"
+                src="/tokenomics_body.webp"
                 className="w-[180px] h-[180px] md:w-[580px] object-contain md:h-[240px] z-10 transition-transform duration-300 transform hover:scale-105"
               />
             </div>
@@ -56,7 +56,7 @@ export default function page() {
                 {/* Tax Box */}
                 <div className="relative flex items-center justify-center border-2 border-[#E3B057] rounded-2xl bg-transparent  p-4 md:p-6 shadow-lg  transition-transform duration-300 transform hover:scale-105 hover:shadow-xl">
                   <span className="absolute -right-[15px] -top-[20px] text-orange-400 text-4xl font-bold">
-                    <img src="/star.png" />
+                    <img src="/star.webp" />
                   </span>
                   <h2 className="text-white !font-black !font-titillium text-md md:text-xl  uppercase">
                     TAX 0/0
@@ -66,7 +66,7 @@ export default function page() {
                 {/* Fair Launch Box */}
                 <div className="relative flex items-center justify-center border-2 border-[#E3B057] rounded-2xl bg-transparent   p-4 md:p-6    shadow-lg  transition-transform duration-300 transform hover:scale-105 hover:shadow-xl">
                   <span className="absolute -right-[15px] -top-[20px] text-orange-400 text-4xl font-bold">
-                    <img src="/star.png" />
+                    <img src="/star.webp" />
                   </span>
                   <h2 className="text-white  !font-black !font-titillium text-md md:text-xl uppercase">
                     FAIR LAUNCH
@@ -76,7 +76,7 @@ export default function page() {
                 {/* LP Locked Box */}
                 <div className="relative flex items-center justify-center border-2 border-[#E3B057] rounded-2xl bg-transparent  p-4 md:p-6   shadow-lg  transition-transform duration-300 transform hover:scale-105 hover:shadow-xl">
                   <span className="absolute -right-[15px] -top-[20px] text-orange-400 text-4xl font-bold">
-                    <img src="/star.png" />
+                    <img src="/star.webp" />
                   </span>
                   <h2 className="text-white !font-black !font-titillium text-md md:text-xl  uppercase">
                     LOCKED LP
