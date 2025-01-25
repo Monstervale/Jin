@@ -9,7 +9,7 @@
 }
 
 .inner-container {
-  background-image: url("/assets/Removed.jpg");
+  background-image: url("/assets/Removed.webp");
   background-size: 100% 100%; /* Stretches the image to fit */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   background-position: center; /* Centers the image */
@@ -164,7 +164,7 @@
   top: 57%;
   left: 50%;
   transform: translate(-50%, -50%);
-  cursor: url(/assets/fire.png), auto;
+  cursor: url(/assets/fire.webp), auto;
   border-radius: 15px;
   transition: all 0.3s ease-in-out;
   z-index: 2;

@@ -192,7 +192,7 @@ export function HoverImage({}) {
         width: "100%",
         height: "100%",
         zIndex: 1,
-        cursor: "url(/assets/fire.png), auto",
+        cursor: "url(/assets/fire.webp), auto",
       }}
     >
       {/* Sound Icons */}
@@ -271,7 +271,7 @@ export function HoverImage({}) {
           }}
         >
           <img
-            src={"/assets/arrow.png"}
+            src={"/assets/arrow.webp"}
             alt="Close"
             style={{
               height: "40px",
@@ -293,7 +293,7 @@ export function HoverImage({}) {
           }}
         >
           <img
-            src={"/assets/arrow.png"}
+            src={"/assets/arrow.webp"}
             alt="Close"
             style={{
               height: "40px",
@@ -351,7 +351,7 @@ export function HoverImage({}) {
           left: "54%",
           transform: "translate(-50%, -50%)",
           width: "22%",
-          cursor: "url(/assets/fire.png), auto",
+          cursor: "url(/assets/fire.webp), auto",
           borderRadius: "15px",
           transition: "all 0.3s ease-in-out",
           zIndex: 2,
@@ -385,7 +385,7 @@ export function HoverImage({}) {
       {/* Stroke Snake PNG */}
       <img
         className="snake"
-        src="/assets/strokeSnake.png"
+        src="/assets/strokeSnake.webp"
         alt="Stroke Snake PNG"
         style={{
           position: "absolute",
@@ -404,7 +404,7 @@ export function HoverImage({}) {
       {/* Remove table */}
       {/* <img
         className="table"
-        src="/assets/table.png"
+        src="/assets/table.webp"
         alt="Table"
         style={{
           position: "absolute",
@@ -572,7 +572,7 @@ export function HoverImage({}) {
 
       {/* Book Stroke PNG */}
       <img
-        src="/assets/bookStroke.png"
+        src="/assets/bookStroke.webp"
         alt="Book Stroke PNG"
         style={{
           position: "absolute",
@@ -615,7 +615,7 @@ export function HoverImage({}) {
         />
       </div>
       <img
-        src="/assets/sandookStroke.png"
+        src="/assets/sandookStroke.webp"
         alt="Book Stroke PNG"
         style={{
           position: "absolute",
@@ -652,7 +652,7 @@ export function HoverImage({}) {
         }}
       ></div>
       <img
-        src="/assets/BlackSnake.png"
+        src="/assets/BlackSnake.webp"
         alt="Almari PNG"
         style={{
           position: "absolute",
@@ -721,7 +721,7 @@ export function HoverImage({}) {
         }}
       ></div>
       <img
-        src="/assets/BlackSnake2.png"
+        src="/assets/BlackSnake2.webp"
         alt="Almari PNG"
         style={{
           position: "absolute",
@@ -867,7 +867,7 @@ export function HoverImage({}) {
         }}
       ></div>
       <img
-        src="/assets/gallery_hover.png"
+        src="/assets/gallery_hover.webp"
         style={{
           position: "absolute",
           top: "67%",
@@ -943,7 +943,7 @@ export function HoverImage({}) {
         <div className="hover-text">
           {" "}
           <img
-            src="/assets/t1.png"
+            src="/assets/t1.webp"
             style={{
               width: "100%",
               height: "100%",
@@ -956,7 +956,7 @@ export function HoverImage({}) {
         <div className="hover-text">
           {" "}
           <img
-            src="/assets/t3.png"
+            src="/assets/t3.webp"
             style={{
               width: "100%",
               height: "100%",
@@ -969,7 +969,7 @@ export function HoverImage({}) {
         <div className="hover-text">
           {" "}
           <img
-            src="/assets/t4.png"
+            src="/assets/t4.webp"
             style={{
               width: "100%",
               height: "100%",
@@ -982,7 +982,7 @@ export function HoverImage({}) {
         <div className="hover-text">
           {" "}
           <img
-            src="/assets/t5.png"
+            src="/assets/t5.webp"
             style={{
               width: "100%",
               height: "100%",
@@ -995,7 +995,7 @@ export function HoverImage({}) {
         <div className="hover-text">
           {" "}
           <img
-            src="/assets/t6.png"
+            src="/assets/t6.webp"
             style={{
               width: "100%",
               height: "100%",
