@@ -8,6 +8,9 @@ import BlinkingPoint from "./Blink";
 import GlowingEffect from "./GlowingEffect";
 import SliderMenu from "./SliderMenu";
 import { useRouter } from "next/navigation";
+import { Copy } from 'lucide-react';
+import CopyText from "@/components/CopyText";
+
 
 export function HoverImage({}) {
   const [hoverText, setHoverText] = useState("");
@@ -316,7 +319,7 @@ export function HoverImage({}) {
           zIndex: 10000000,
         }}
       >
-        <a className="" href="https://x.com/jinsolvip" target="_blank">
+        <a className="" href="https://x.com/jinethvip" target="_blank">
           <img
             style={{ width: "40px", height: "40px" }}
             className=""
@@ -324,7 +327,7 @@ export function HoverImage({}) {
             alt="Twitter"
           ></img>
         </a>
-        <a className="" href="https://telegram.com" target="_blank">
+        <a className="" href="https://t.me/jinethvip" target="_blank">
           <img
             style={{ width: "40px", height: "40px" }}
             src="/telegram.webp"
@@ -672,11 +675,13 @@ export function HoverImage({}) {
           width: "19%",
           position: "absolute",
           top: "60%",
-          left: "40%",
+          left: "40.5%",
           zIndex: 9,
         }}
-    
-      ></div>
+        className={"flex items-center justify-center"}
+      >
+         <CopyText text={"CA: TBC"}/>
+      </div>
       <div
         style={{
           position: "absolute",

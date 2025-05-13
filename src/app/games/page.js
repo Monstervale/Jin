@@ -7,7 +7,7 @@ export default function page() {
   // Define an array of objects for games
   const games = [
     {
-      src: "/game_1_b.webp",
+      src: "/game_1_new.webp",
       title: "Snake",
       status: "playNow",
     },
