@@ -14,12 +14,14 @@ const CopyText = ({text}) => {
         }
     };
 
-    return (
-        <div  className={"flex w-full h-full items-center justify-center gap-4 font-bold text-orange-600 text-[24px]"}>
+    return (<div onClick={handleCopy}
+                 className={"flex w-full h-full group items-center justify-center gap-4 font-bold text-orange-600 text-[24px]"}>
             <h2>{text}</h2>
-            <Copy onClick={handleCopy} width={18} height={18} className={`hover:text-orange-300 cursor-pointer ${copied && 'text-orange-300'}`} />
-        </div>
-    );
+            <div className={"flex justify-center"}>
+                <Copy width={18} height={18}
+                      className={`group-hover:text-orange-300 cursor-pointer ${copied && 'text-orange-300'}`}/>
+            </div>
+        </div>);
 };
 
 export default CopyText;
