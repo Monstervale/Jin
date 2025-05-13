@@ -15,9 +15,9 @@ const CopyText = ({text}) => {
     };
 
     return (
-        <div  className={"flex items-center justify-center gap-4 font-bold text-orange-600 text-[44px]"}>
+        <div  className={"flex w-full h-full items-center justify-center gap-4 font-bold text-orange-600 text-[24px]"}>
             <h2>{text}</h2>
-            <Copy onClick={handleCopy} width={32} height={32} className={`hover:text-orange-300 cursor-pointer ${copied && 'text-orange-300'}`} />
+            <Copy onClick={handleCopy} width={18} height={18} className={`hover:text-orange-300 cursor-pointer ${copied && 'text-orange-300'}`} />
         </div>
     );
 };

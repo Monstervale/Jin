@@ -671,7 +671,7 @@ export function HoverImage({}) {
       {/* Table */}
       <div
         style={{
-          height: "14%",
+          height: "16%",
           width: "19%",
           position: "absolute",
           top: "60%",
