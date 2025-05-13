@@ -1,6 +1,6 @@
 "use client";
 import dynamic from "next/dynamic";
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./page.css";
 import Modal from "./Modal";
 const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
@@ -10,6 +10,7 @@ import SliderMenu from "./SliderMenu";
 import { useRouter } from "next/navigation";
 import { Copy } from 'lucide-react';
 import CopyText from "@/components/CopyText";
+import Image from "next/image";
 
 
 export function HoverImage({}) {
@@ -334,6 +335,13 @@ export function HoverImage({}) {
             alt="Twitter"
           ></img>
         </a>
+
+          <div className={"w-[40px] flex items-center justify-center h-[40px] rounded-full bg-white"}>
+              <Image src={"/ic (3).svg"} alt={"dextool"} width={40} height={40}/>
+          </div>
+          <div className={"w-[40px] flex items-center justify-center h-[40px] rounded-full bg-white"}>
+              <Image src={"/icw (1).svg"} alt={"dextool"} width={38} height={38}/>
+          </div>
       </div>
       <div style={{ position: "absolute", top: "72%", left: "32.5%" }}>
         <img
