@@ -6,7 +6,7 @@ const CopyText = ({text}) => {
 
     const handleCopy = async () => {
         try {
-            await navigator.clipboard.writeText(text);
+            await navigator.clipboard.writeText(text.split(":")[1].trim());
             setCopied(true);
             setTimeout(() => setCopied(false), 2000); // Reset after 2s
         } catch (err) {

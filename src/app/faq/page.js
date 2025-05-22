@@ -10,7 +10,7 @@ const faqData = [
   },
   {
     question: "What Blockchain is $JIN on?",
-    answer: "$JIN is built on the Solana blockchain.",
+    answer: "$JIN is built on the Ethereum blockchain.",
   },
   // {
   //   question: "Is there a Presale?",
